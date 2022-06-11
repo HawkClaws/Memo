@@ -38,7 +38,6 @@ class CSSSelectorAnalysis:
 
 
 from bs4 import BeautifulSoup
-from regex import P
 import requests
 res = requests.get("https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Selectors")
 
